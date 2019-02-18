@@ -1,3 +1,7 @@
 spring:
   application:
     name: config-client-7083
+eureka:
+  instance:
+#       hostname: eureka7001.com #hosts文件别名
+      hostname: localhost #eureka服务端的实例名称
